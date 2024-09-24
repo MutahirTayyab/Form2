@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Default Styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Styling th Body Tag */
+body{
+    display: flex;
+    justify-content: center; /* centers items horizontally */
+    align-items: center;     /* centers items vertically */
+    min-height: 100vh;       /* adjusts height to full viewport height */
+    background: url(img1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Form Styling */
+.form2{
+    /* Its not necessary to write this Display Attribute. The Form is already Centered */
+    /* display: inline-block;  allows the form to be centered */
+
+    border: 2px solid rgba(126, 60, 6, 0.2);
+    border-radius: 40px;
+    box-shadow: 100px;
+    background-color: transparent;
+    color: black;
+
+    /* It defines the Overall Form Width */
+    width: 420px;
+
+    /* It defines that how much Form Inner Elements will be Far/Near enough from the Form Border */
+    padding: 10px 20px;
+    margin: auto;
+}
+
+/* Form Heading Styling */
+.form2 .h1{
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+}
+
+/* This is the styling  of Text Box in which we give info */
+.form2 .input-box{
+    position: relative;       /*    Right Now dont know about this */
+    color: black;
+    padding-right: 4px;
+    width: 100%;
+    height: 70px;
+}
+
+/* Styling of Headings above the Text Box which tell us what to write */
+.input-box label{
+    color: white;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* This is the styling  of Text Box in which we give info */
+.input-box input{
+    outline: none;
+    border: none;
+    border: 2px solid black;
+    border-radius: 40px ;
+    font-size: 16px;
+    width: 100%;
+    height: 55%;
+    padding-left: 5px;
+    /* background-color: transparent; */
+}
+
+/* Styling of Sign Up Button */
+.form2 .btn{
+    /* text-align: center; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    border: none;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    transform: translateY(-50%);  /* This is optional; it slightly shifts the button upwards */
+}
+
+.para1{
+    margin-top: 5px;
+    text-align: center
+}
+
+.para1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.para1 a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+.para2{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.para2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.para2 a:hover{
+    text-decoration: underline;
+    color: blue;
+}
