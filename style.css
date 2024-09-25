@@ -27,7 +27,7 @@ body{
     border-radius: 40px;
     box-shadow: 100px;
     background-color: transparent;
-    color: black;
+    color: white;
     width: 420px;
     padding: 10px 20px;
     margin: auto;
@@ -100,7 +100,6 @@ body{
 
 .para1 a:hover{
     text-decoration: underline;
-    color: blue;
 }
 
 /* Login */
@@ -117,5 +116,4 @@ body{
 
 .para2 a:hover{
     text-decoration: underline;
-    color: blue;
 }
