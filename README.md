@@ -1,8 +1,9 @@
-                                       🌟 Sign Up & Login Form 🎉
+                                         🌟 Sign Up & Login Form 🎉
 
 A stylish, fully responsive Sign Up & Login form designed with HTML and CSS, providing a clean and modern interface. This form includes separate pages for signing up and logging in, perfect for integration into web applications.
 
 🛠 Features
+
 🎨 Minimalist Design: A clean and intuitive user interface with smooth input boxes and buttons.
 
 ✨ Responsive Layout: Designed to look great on all devices, from desktops to mobile phones.
@@ -63,7 +64,9 @@ Easily change the background image by replacing img1.jpg with your own image and
 css:
 
 body {
+
     background: url('your-image.jpg') no-repeat center/cover;
+
 }
 
 2. Color Scheme
