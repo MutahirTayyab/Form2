@@ -9,7 +9,7 @@
 
 body{
     display: flex;
-    justify-content: center; /* centers items horizontally */
+    justify-content: center; /*centers items horizontally */
     align-items: center;     /* centers items vertically */
     min-height: 100vh;       /* adjusts height to full viewport height */
     background: url(img1.jpg);
